@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html   lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>City Guide</title>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/a696c51a6c.js"></script>
+</head>
+<body>
+    <nav class="sidebar">
+        <div class="text">Side Menu</div>
+        <ul>
+            <li><a href="">Dashboard</a></li>
+            <li>
+                <a  class="edu-btn">Education<span class="fas fa-caret-down first"></span></a>
+                <ul  class="edu-show">
+                    <li><a href="insert_school.html">Schools</a></li>
+                    <li><a href="insert_clg.html">Colleges</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="insert_industries.html">Jobseeker</a>
+            </li>
+            <li>
+                <a class="tour-btn">Tourism<span class="fas fa-caret-down second"></span></a>
+                <ul class="tour-show">
+                    <li><a href="insert_hotel.html">Hotels</a></li>
+                    <li><a href="insert_res.html">Restraunts</a></li>
+                    <li><a href="insert_mall.html">Shopping Mall</a></li>
+                    <li><a href="insert_cinema.html">Cinema</a></li>
+                    <li><a href="insert_lib.html">Library</a></li>
+                    <li><a href="insert_petrol.html">Petrol Pump</a></li>
+                    <li><a href="insert_club.html">Nigth Club</a></li>
+                    <li><a >Bus Stops</a></li>
+                </ul>
+            </li>
+            <li>
+                <a  class="heal-btn">Health<span class="fas fa-caret-down  third"></span></a>
+                <ul class="heal-show">
+                    <li><a href="insert_phar.html">Pharmacy</a></li>
+                    <li><a href="insert_hos.html">Hospitals</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+  <script>
+      $('.edu-btn').click(function(){
+        $('nav ul .edu-show').slideToggle("slow");
+        $('nav ul .first').slideToggle("rotate");
+    });
+    $('.tour-btn').click(function(){
+        $('nav ul .tour-show').slideToggle("show1");
+        $('nav ul .second').slideToggle("rotate");
+    });
+    $('.heal-btn').click(function(){
+        $('nav ul .heal-show').slideToggle("show2");
+        $('nav ul .third').slideToggle("rotate");
+    });
+    $('nav ul li').click(function(){
+        $(this).addClass("active").siblings().removeClass("active");
+    })
+  </script>
+
+</body>
+</html>

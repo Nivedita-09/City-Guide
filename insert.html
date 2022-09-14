@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style type="text/css">
+       
+        h1{
+    
+color: white;
+font-family: "Times New Roman", "Times, serif";
+font-size: 30px;
+font-weight: bold;
+margin-top: 5px;
+margin-bottom: 10px;
+}
+input[type=submit]{
+  background-color:whitesmoke;
+  border: 2px solid black;
+  color: black;
+  padding: 16px 32px;
+  text-decoration:2px rgb(192, 192, 192);
+  margin: 6px 6px;
+  cursor: pointer;
+}
+input[type=text] {
+  width:200px;
+  height:30px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid white;
+  border-radius: 2px;
+}
+input[type=url] {
+  width:200px;
+  height:30px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid white;
+  border-radius: 2px;
+}
+body
+{
+  background-image: url(4.jpg);
+  background-repeat: no-repeat;
+}
+label {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    height:50px;
+    width:10px;
+    color: white;
+    padding: 8px;
+    font-family: "Times New Roman", "Times, serif";
+  
+}
+
+</style>
+
+</head>
+<body>
+    <form action="config.php" method="POST">
+        
+        <div style="text-align: center;">
+        <h1>INDUSTRIES ADMIN PAGE</h1>>
+        <br>
+        <br>
+        <label for="name">COMPANY NAME:</label>
+        <input type="text" name="name">
+    <br>
+    <br>
+    <label for="address">ADDRESS:</label>
+    <input type="text" name="address">
+    <br>
+    <br>
+    <label for="link">WEBSITE</label>
+    <input type="url" name="website">
+    <br>
+    <br>
+    <input type="submit" name="submit">
+      
+    </div>
+</form>
+</body>
+</html>

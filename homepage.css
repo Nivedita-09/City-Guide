@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    }
+
+  .title{
+    height: 450px;
+    width:100%;
+    background-image: url("https://i.pinimg.com/originals/90/83/92/9083925a01fd2ebce8a23aac1944aceb.gif");
+    font-size: 60px;
+    font-family: 'Rampart One', cursive;
+    text-align: center;
+    font-weight:bolder;
+    color: cyan;
+    line-height: 50px;
+    
+    padding-top: 150px;
+}
+.nav{
+    display: flex;
+
+}
+ul.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #111;
+  }
+  
+  ul.nav-list li {
+    float: left;
+  }
+  
+  ul.nav-list li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  ul.nav-list li a:hover:not(.active) {
+      background-color: #111;
+  }
+  
+  ul.nav-list li a.active {
+      background-color: cyan;
+  }
+  
+  ul.nav-list li.right {
+      float: right;
+  }
+  
+  @media screen and (max-width: 600px) {
+    ul.nav-list li.right, 
+    ul.nav-list li {
+        float: none;
+      }
+  }
+  
+  .dropbtn {
+    display: inline-block;
+    color:black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: rgba(0,0,0,0.2);
+  }
+  
+  li.dropdown {
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: cyan;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    background-color: cyan;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: cyan;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropbtn-1 {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .dropdown-1:hover .dropbtn-1 {
+    background-color: rgba(0,0,0,0.2);
+  }
+  
+  .dropdown-1 {
+    display: inline-block;
+  }
+  
+  .dropdown-content-1 {
+    display: none;
+    position: absolute;
+    background-color: cyan;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content-1 a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    background-color: cyan;
+  }
+  
+  .dropdown-content-1 a:hover {
+    background-color: cyan;
+  }
+  
+  .dropdown-1:hover .dropdown-content-1 {
+    display: block;
+  }
+  .dropbtn-2 {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .dropdown-2:hover .dropbtn-2 {
+    background-color: rgba(0,0,0,0.2);
+  }
+  
+  .dropdown-2 {
+    display: inline-block;
+  }
+  
+  .dropdown-content-2 {
+    display: none;
+    position: absolute;
+    background-color: cyan;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content-2 a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    background-color: cyan;
+  }
+  
+  .dropdown-content-2 a:hover {
+    background-color: cyan;
+  }
+  
+  .dropdown-2:hover .dropdown-content-2 {
+    display: block;
+  }
+  .btn{
+      padding: 10px 15px;
+      font-size: 18px;
+      background-color: cyan;
+  }
+  .LeftNav{
+      padding-top: 5px;
+      padding-bottom: 6px;
+      
+      
+  }
+  .container{
+    display: flex;
+    height: 800px;
+    width: 100%;
+    background-color: rgba(82, 238, 217, 0.205);
+  }
+  .col-md-4{
+    padding-left: 50px;
+    padding-top: 50px;
+
+  }
+  .thumbnail{
+    height: 250px;
+    width: 250px;
+  }
+  .font{
+    font-family:'Lcida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .about-div{
+    height: 200px;
+    width: 100%;
+    padding-top: 20px;
+    background-color: rgb(252, 252, 252);
+    text-align: center;
+  }
+ 
